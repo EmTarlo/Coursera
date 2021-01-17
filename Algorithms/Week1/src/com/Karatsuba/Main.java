@@ -1,7 +1,7 @@
 package com.Karatsuba;
 
 
-import com.Karatsuba.util.Karatsuba; 
+import com.Karatsuba.util.Karatsuba;   
 
 public class Main {
 
