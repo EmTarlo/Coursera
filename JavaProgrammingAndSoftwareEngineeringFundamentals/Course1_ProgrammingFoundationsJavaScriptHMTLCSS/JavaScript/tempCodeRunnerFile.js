@@ -1,0 +1,1 @@
+getPixelNearby(img_org,50,50,2);

@@ -1,0 +1,60 @@
+<html>
+    <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"> </script>
+    <script src="Steganography.js"></script>
+<head>
+    <link rel="stylesheet" href="Steganography.css">
+    <title>Playing with Steganography</title>
+</head>
+<body>
+    <h1>Hiding</h1>
+    <div>
+        <canvas id="c1"></canvas>
+    </div>
+    &nbsp;
+    <div>
+        <canvas id="c2"></canvas>
+    </div>
+    &nbsp;
+    <div>
+        <canvas id="c3"></canvas>
+    </div>
+    &nbsp;
+    <br></br>
+    <input type="file" id="i1" onchange="loadTgtImage()">
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <input type="file" id="i2" onchange="loadToHideImage()">
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+    <input type="button" id="b1" value="Merge&Hide" onclick="mergeHide()">
+    <br></br>
+    <input type="button" id="b2" value="Chop-Hide" onclick="chopHide()">
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+    <input type="button" id="b3" value="Shift-Hide" onclick="sigDigShift()">
+    <br></br>
+    <input type="button" id="b4" value="Reset" onclick="resetTgtImg()">
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+    <input type="button" id="b5" value="Reset" onclick="resetHideImg()">
+    
+    <br></br>
+    <br></br>
+    <h1>Extracting</h1>
+    <div>
+        <canvas id="c4"></canvas>
+    </div>
+    &nbsp;
+    <div>
+        <canvas id="c5"></canvas>
+    </div>
+    <br></br>
+    <input type="button" id="b6" value="Extract" onclick="extractImgs()">
+
+</body>
+
+
+
+</html>
