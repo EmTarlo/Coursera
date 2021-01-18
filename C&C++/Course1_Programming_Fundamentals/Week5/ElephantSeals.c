@@ -14,7 +14,7 @@ int main()
 
     
     // opening the file with weights - to be replaced with your own file name or file path
-    FILE* f = fopen("elephantSeals.txt", "r");
+    FILE* f = fopen("ElephantSeals.txt", "r");
 
     //initializing array of weights 
     int weights[size];

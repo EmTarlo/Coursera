@@ -1,3 +1,8 @@
+/*
+The purpose of this program is to show two approaches to implementing 
+Fibonacci's numbers: an iterative vs. a recursive approach.
+*/
+
 #include<stdio.h>
 
 

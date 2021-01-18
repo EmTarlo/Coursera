@@ -1,0 +1,1 @@
+This course is divided into 5 weeks. You will find the file inputs needed to run some code in the "Course_Resources"  folder.
