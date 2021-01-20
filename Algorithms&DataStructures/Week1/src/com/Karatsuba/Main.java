@@ -3,25 +3,23 @@ package com.Karatsuba;
 
 import com.Karatsuba.util.Karatsuba;
 
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import java.util.logging.Logger;
+
 public class Main {
 
 
 
     public static void main(String[] args) {
-        //Logger logger = Logger.getLogger()
+        //Logger logger = Logger.getLogger();
 
         Karatsuba m = new Karatsuba();
-        int n = m.nDetermine(2,3);
-        System.out.println("\n"+n);
 
+        BigDecimal result = m.kmultBigDecimal("434343","4545454");
+        //BigDecimal result = m.kmultBigDecimal("3141592653589793238462643383279502884197169399375105820974944592","2718281828459045235360287471352662497757247093699959574966967627");
+        System.out.println("\n"+result);
 
-        /*com.com.Karatsuba.util.Karatsuba.Main m = new com.com.Karatsuba.util.Karatsuba.Main();
-        int num1=2;
-        int num2=3;
-        int tresult = num1*num2;
-        int kresult = m.kmult(num1,num2);
-        System.out.println("\nResult with 'traditional' multiplication is: " + tresult +
-                "\nResult with com.Karatsuba.util.Karatsuba multiplication is: " + kresult );*/
 
     }
 }
