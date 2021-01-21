@@ -9,7 +9,7 @@ public class Main {
 
         com.MergeSort ms = new com.MergeSort();
 
-        int[] array = {7,4,5,1,2,6,3};
+        int[] array = {1000,625,5,0,50,81,40,10,11,4};
         int m = 0;
         int size = array.length;
         int[] out_array = new int[size];
