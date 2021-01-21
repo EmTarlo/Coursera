@@ -1,7 +1,7 @@
 
 //code for the implementation of Karatsuba multiplication, one version for int numbers, the other for BigDecimals
 
-package com.Karatsuba.util;
+package com;
 
 
 import java.math.BigDecimal;
