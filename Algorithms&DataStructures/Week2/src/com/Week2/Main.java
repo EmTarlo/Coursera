@@ -8,8 +8,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
-		com.Week2.InversionsInArray ia = new com.Week2.InversionsInArray();
-		ia.testSortAndCount();
+		com.Week2.FastPower fp = new com.Week2.FastPower();
+		fp.fastPower(3,6);
 
 	}
 }
