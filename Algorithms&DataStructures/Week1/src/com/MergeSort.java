@@ -11,6 +11,13 @@ public class MergeSort {
             3) call of the merge method defined further below
     */
     public int[] mergeSort(int[] array){
+        if(array.length==0){
+            System.out.println("Please input an array of at least size = 1");
+            int[] ret = {-1};
+            return ret;
+
+        }
+
         int middle = (array.length/2)-1;
         int low = 0;
         int high = array.length-1;
