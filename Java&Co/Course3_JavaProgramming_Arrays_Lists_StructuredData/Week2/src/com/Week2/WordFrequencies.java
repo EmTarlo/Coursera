@@ -69,16 +69,13 @@ public class WordFrequencies {
         String w_max_idx = myWords.get(idx_of_max);
         int max_count = myFreqs.get(idx_of_max);
 
-
-
         System.out.println("Number of unique words: "+n_unique);
 
-        for(int i=0;i<myWords.size();i++){
+        /*for(int i=0;i<myWords.size();i++){
             word = myWords.get(i);
             count = myFreqs.get(i);
             System.out.println(word+" has been found "+count+" times.");
-
-        }
+        }*/
 
         System.out.println("The word that occurs most often and its count are: "+w_max_idx+" "+max_count);
 

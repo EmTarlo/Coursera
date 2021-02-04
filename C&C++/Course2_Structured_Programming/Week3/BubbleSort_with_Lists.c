@@ -3,6 +3,7 @@
 #include<time.h>
 
 
+//-------------------- What follows immediately below are helper functions---------------------------
 
 // defining the type "list"
 typedef struct list{int data; struct list *next;} list;
@@ -51,6 +52,15 @@ list* add_to_front(int d, list* old_list){
 
 }
 
+// function to swap data of two nodes a and b //
+void swap(list* a, list* b) 
+{ 
+    int temp = a->data; 
+    a->data = b->data; 
+    b->data = temp; 
+} 
+
+
 // helper function to generate random numbers between 0 and (max-1)
 int rand_num(int max){
     int ret_num = rand() %(max);
@@ -76,34 +86,55 @@ list* random_list(int max){
 
 }
 
+
+//-------------------- What follows immediately below is the bubble-sort algorithm and the main program ---------------------------
+
 // bubble-sort algorithm
-
-list* bubble_sort(list* l){
-
-    int temp;
-    list* a;
-    list* b=l->next;     
-
-    while(b!=NULL){
-        a = b;
-        b = a->next;
-        //printf("\n%d %d\n\n",a->data,b->data);
-        if((a->data)>(b->data)){
-            temp = b->data; 
-            b->data=a->data;
-            a->data = temp;
-        }
-    }
-    return l;
-}
+void bubbleSort(list* start) 
+{ 
+    int swapped, i; 
+    struct list* ptr1; 
+    struct list* lptr = NULL; 
+  
+    /* Checking for empty list */
+    if (start == NULL) 
+        return; 
+  
+    do
+    { 
+        swapped = 0; 
+        ptr1 = start; 
+  
+        while (ptr1->next != lptr) 
+        { 
+            if (ptr1->data > ptr1->next->data) 
+            {  
+                swap(ptr1, ptr1->next); 
+                swapped = 1; 
+            } 
+            ptr1 = ptr1->next; 
+        } 
+        lptr = ptr1; 
+    } 
+    while (swapped); 
+}   
 
 
 int main(){  
     
-    list* input_list = random_list(100);
-    print_list(input_list);
-    list* output_list = bubble_sort(input_list);
-    print_list(output_list);
+    // generating a list of 100 random numbers
+    list* l = random_list(100);
+    
+    //printing the list before sorting 
+    printf("\nList before sorting:\n\n");
+    print_list(l);
 
+    //calling bubble-sort on the list
+    bubbleSort(l);
+
+    //printing the list after sorting
+    printf("\nList after sorting:\n\n");
+    print_list(l);
+  
     return 0;
 }
