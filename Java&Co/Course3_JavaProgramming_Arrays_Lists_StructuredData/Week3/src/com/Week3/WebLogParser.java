@@ -1,6 +1,8 @@
 package com.Week3;
 
 import java.text.*;
+import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.*;
 
 public class WebLogParser {
@@ -22,7 +24,7 @@ public class WebLogParser {
         munchTo(sb, " "); //ignore -
         munchTo(sb, " ["); //ignore -, and eat the leading [
         String dateStr = munchTo(sb, "] \""); //]-space is intentional: eat both
-        Date date = parseDate(dateStr);
+        LocalDate date = parseDate(dateStr);
         String request = munchTo(sb, "\" "); // quote-space is intentional: eat both
         String statusStr = munchTo(sb, " ");
         int status = Integer.parseInt(statusStr);
@@ -30,9 +32,19 @@ public class WebLogParser {
         int bytes = Integer.parseInt(byteStr);
         return new LogEntry(ip, date, request, status, bytes);
     }
-    public static Date parseDate(String dateStr) {
+
+    public static LocalDate convertToLocalDateViaInstant(Date dateToConvert) {
+        return dateToConvert.toInstant()
+                .atZone(ZoneId.systemDefault())
+                .toLocalDate();
+    }
+
+
+    public static LocalDate parseDate(String dateStr) {
         ParsePosition pp = new ParsePosition(0);
-        return  dateFormat.parse(dateStr, pp);
+        Date df = dateFormat.parse(dateStr, pp);
+        LocalDate df_as_local_date = com.Week3.WebLogParser.convertToLocalDateViaInstant(df);
+        return df_as_local_date;
     }
 
 }

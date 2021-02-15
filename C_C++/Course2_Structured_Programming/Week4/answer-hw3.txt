@@ -1,0 +1,11 @@
+
+Size is: 4
+
+Your array contains following elements:
+
+[ 9 11 12 15 ]
+
+Average is: 11.750000
+
+Max is: 15
+

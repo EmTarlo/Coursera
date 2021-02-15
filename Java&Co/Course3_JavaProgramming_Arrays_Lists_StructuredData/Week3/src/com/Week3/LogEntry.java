@@ -6,16 +6,17 @@ package com.Week3;
  * @version (a version number or a date)
  */
 
+import java.time.LocalDate;
 import  java.util.*;
 public class LogEntry
 {
      private String ipAddress;
-     private Date accessTime;
+     private LocalDate accessTime;
      private String request;
      private int statusCode;
      private int bytesReturned;
      
-   public LogEntry(String ip, Date time, String req, int status, int bytes) {
+   public LogEntry(String ip, LocalDate time, String req, int status, int bytes) {
        ipAddress = ip;
        accessTime = time;
        request = req;
@@ -27,7 +28,7 @@ public class LogEntry
    public String getIpAddress() {
          return ipAddress;
     }
-    public Date getAccessTime() {
+    public LocalDate getAccessTime() {
          return accessTime;
    }   
    public String getRequest() {
