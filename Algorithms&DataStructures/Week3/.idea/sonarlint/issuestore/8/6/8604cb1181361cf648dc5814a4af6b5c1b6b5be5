@@ -1,0 +1,17 @@
+
+
+java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "finalArray".(ÌÏıù8è‘«û.
+T	java:S106""9Replace this use of System.out or System.err by a logger.(àúX8’…âªû.
+o	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ÉÑŒüÿÿÿÿ8’…âªû.
+i
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(õ½ÍÖ8’…âªû.
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰©ó»8‡Ô‰«û.
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(¦Öç²ûÿÿÿÿ8’…âªû.
+
+java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "finalArray".(º¿·Ç8Êµ«û.
+
+java:S1319"qThe type of the "arrayL" object should be an interface such as "List" rather than the implementation "ArrayList".(‰©ó»8óÀŠ«û.
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈŠª÷şÿÿÿÿ8’…âªû.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´²•‡øÿÿÿÿ
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(Ù—êÄşÿÿÿÿ8’…âªû.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™÷¦8ó©Œ«û.

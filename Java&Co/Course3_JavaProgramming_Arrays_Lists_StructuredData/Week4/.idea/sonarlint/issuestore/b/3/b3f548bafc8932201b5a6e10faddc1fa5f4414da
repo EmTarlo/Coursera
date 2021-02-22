@@ -1,36 +1,64 @@
 
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¦Öç²ûÿÿÿÿ
-;
-java:S2129>" Remove this "String" constructor(Ş±©ôÿÿÿÿÿ
-f	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó’„à
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ã×á†
-k	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ê­ûøÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ù—êÄşÿÿÿÿ
 m	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûñ£Ü8îûË€û.
-N	java:S106X"9Replace this use of System.out or System.err by a logger.(ÿÏøÕ
-f	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï‰öÑ
-f	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åñ§ƒ
-S	java:S106M"9Replace this use of System.out or System.err by a logger.(û“©Ëşÿÿÿÿ
-k	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆŒ®şÿÿÿÿ
+=
+java:S2129k" Remove this "String" constructor(’¼ëÒ8¡£ˆÎû.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¦Öç²ûÿÿÿÿ
 M	java:S106"9Replace this use of System.out or System.err by a logger.(àúX
-^
-java:S1854J"CRemove this useless assignment to local variable "correct_key_set".(¹´¼ùÿÿÿÿ
-f	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔªŒ
-k	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦å¿ıÿÿÿÿ
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ú‡
-ˆ
-java:S13191"rThe type of the "dictionary" object should be an interface such as "Set" rather than the implementation "HashSet".(â±¿ï
-f	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•‡ò³
-ƒ
-java:S1319("mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(œÆ‘‡
-k	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Ú×ıÿÿÿÿ
-?
-java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å
+V	java:S106"9Replace this use of System.out or System.err by a logger.(¼¥ò8€ÇÎû.
+=
+java:S2129l" Remove this "String" constructor(â‚ä´8ø”‹Îû.
+V
+java:S2864o"4Iterate over the "entrySet" instead of the "keySet".(ç¥Îáüÿÿÿÿ8şşæÍû.
+l	java:S117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êƒ¿8 ğóËû.
+r	java:S117^"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÁ¡¼ùÿÿÿÿ8’ò÷Ëû.
+k	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ê­ûøÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(•Ù«Òÿÿÿÿÿ8ê¢£Îû.
 O
 java:S1481@"4Remove this unused "correct_key_set" local variable.(•Ú×ıÿÿÿÿ
-L
-java:S1172"1Remove this unused method parameter "mostCommon".(Š¼‰øÿÿÿÿ
+f	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åñ§ƒ
+U	java:S106|"9Replace this use of System.out or System.err by a logger.(ı­±·8´œ˜Îû.
+[	java:S106Œ"9Replace this use of System.out or System.err by a logger.(€Ñ¢¢ûÿÿÿÿ8Â´Îû.
+ˆ
+java:S1319="rThe type of the "dictionary" object should be an interface such as "Set" rather than the implementation "HashSet".(ğ„Œş
+V	java:S106€"9Replace this use of System.out or System.err by a logger.(úäÿ‘8ÒÂ¤Îû.
+U	java:S106{"9Replace this use of System.out or System.err by a logger.(‰™—Ş8ÆÄÎû.
+m	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…»»÷8ĞÎû.
+m	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÏòË8’ò÷Ëû.
+š
+java:S1319i"xThe type of the "language_to_dict" object should be an interface such as "Map" rather than the implementation "HashMap".(æ½•¼ûÿÿÿÿ8šÄÚÍû.
+U	java:S106~"9Replace this use of System.out or System.err by a logger.(×•8îëÎû.
 h	java:S100
 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îçû«şÿÿÿÿ
-
-java:S1319="rThe type of the "dictionary" object should be an interface such as "Set" rather than the implementation "HashSet".(Ö÷×‰üÿÿÿÿ
+r	java:S117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…í±ışÿÿÿÿ8•‡Îû.
+f	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔªŒ
+m	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â‚ä´8ø”‹Îû.
+V	java:S106…"9Replace this use of System.out or System.err by a logger.(Î‚¦ÿ8ŒÆÎû.
+;
+java:S2129>" Remove this "String" constructor(Ş±©ôÿÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ú‡
+f	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï‰öÑ
+m	java:S117s"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¦­½8•‡Îû.
+n	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ïí8Ô¨­Îû.
+V	java:S106"9Replace this use of System.out or System.err by a logger.(‰™—Ş8Ä—ÌÎû.
+m	java:S117k"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’¼ëÒ8¡£ˆÎû.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ù—êÄşÿÿÿÿ
+^
+java:S1854J"CRemove this useless assignment to local variable "correct_key_set".(¹´¼ùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ã×á†
+k	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–¼™ıÿÿÿÿ
+ˆ
+java:S13191"rThe type of the "dictionary" object should be an interface such as "Set" rather than the implementation "HashSet".(â±¿ï
+”
+java:S1319P"rThe type of the "dictionary" object should be an interface such as "Set" rather than the implementation "HashSet".(ä¨í×øÿÿÿÿ8ŠïÕËû.
+ƒ
+java:S1319("mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(œÆ‘‡
+k	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦å¿ıÿÿÿÿ
+U	java:S106}"9Replace this use of System.out or System.err by a logger.(Æà8š˜™Îû.
+V
+java:S2864_"4Iterate over the "entrySet" instead of the "keySet".(ºÎ”¦üÿÿÿÿ8ß‘üËû.
+s	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ßâ¤ûÿÿÿÿ8ŞÎ®Îû.
+k	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Ú×ıÿÿÿÿ
+r	java:S117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ÁÄ®üÿÿÿÿ8ÿÅšÎû.
+f	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó’„à
+r	java:S117i"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ½•¼ûÿÿÿÿ8šÄÚÍû.
+n	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ìæ©8úˆ©Îû.

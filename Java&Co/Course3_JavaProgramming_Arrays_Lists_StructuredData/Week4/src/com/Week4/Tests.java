@@ -1,5 +1,9 @@
 package com.Week4;
 
+import edu.duke.FileResource;
+
+import java.util.HashSet;
+
 public class Tests {
 
 
@@ -60,8 +64,13 @@ public class Tests {
         }else{
             System.out.println("Test failed");
         }
-
-
     }
 
+    public void testMostCommonCharIn(){
+        VigenereBreaker vb = new VigenereBreaker();
+        FileResource fr = new FileResource();
+        HashSet<String> dictionary = vb.readDictionary(fr);
+        Character most_common_char_in_dict = vb.mostCommonCharIn(dictionary);
+        System.out.println("\nMost common char in language: "+most_common_char_in_dict);
+    }
 }
